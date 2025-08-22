@@ -1,0 +1,16 @@
+name: dataEng
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.13
+  - gdal
+  - shapely
+  - pystac
+  - numpy
+  - pip:
+      - pystac-client
+      - cloud-sql-python-connector["pg8000"]
+      - SQLAlchemy==2.0.7
