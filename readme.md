@@ -37,3 +37,9 @@ The repository is organized into the following main components:
 - **Task Orchestration**: Apache Airflow DAGs automate workflows for processing and cleaning data.
 - **GCP Integration**: Satellite imagery data is stored and managed in a GCP bucket.
 - **CSV Upload to Bucket**: Users can upload CSV analysis data to the GCP bucket.
+
+## Figs
+
+![Project Screenshot](./figs/inventory.png)
+![Project Screenshot](./figs/data.png)
+![Project Screenshot](./figs/landsat.jpg)
